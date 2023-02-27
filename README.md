@@ -85,3 +85,14 @@ firefox http://localhost:3000/?language=gurmukhi
 - Github actions [getting started](https://docs.github.com/en/actions/quickstart)
 - EJS templating [https://ejs.co/]()
 - Counterstrike cloudformation [https://github.com/jujhars13/counterstrike-server]()
+
+
+
+
+---
+##my stuff
+
+```bash
+AWS_DEFAULT_REGION=eu-west-2 AWS_PROFILE=warwick-2-james aws cloudformation create-stack --stack-name=james --template-body file://cloudformation.yaml
+
+```
